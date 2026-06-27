@@ -35,7 +35,7 @@ class TelegramDelivery:
                     json={
                         "chat_id": self.chat_id,
                         "text": chunk,
-                        "parse_mode": "Markdown",
+                        "parse_mode": "HTML",
                         "disable_web_page_preview": False,
                     },
                     timeout=30
